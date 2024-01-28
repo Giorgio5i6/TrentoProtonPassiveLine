@@ -1,0 +1,53 @@
+TOPAS ASCII Phase Space
+
+Number of Original Histories: 100000000
+Number of Original Histories that Reached Phase Space: 674526
+Number of Scored Particles: 743182
+
+Columns of data are as follows:
+ 1: Position X [cm]
+ 2: Position Y [cm]
+ 3: Position Z [cm]
+ 4: Direction Cosine X
+ 5: Direction Cosine Y
+ 6: Energy [MeV]
+ 7: Weight
+ 8: Particle Type (in PDG Format)
+ 9: Flag to tell if Third Direction Cosine is Negative (1 means true)
+10: Flag to tell if this is the First Scored Particle from this History (1 means true)
+
+Number of e+: 72
+Number of e-: 63410
+Number of gamma: 55285
+Number of neutron: 57201
+Number of proton: 567053
+Number of deuteron: 87
+Number of He3: 1
+Number of alpha: 65
+Number of Be8: 2
+Number of C11: 1
+Number of C12: 5
+
+Minimum Kinetic Energy of e+: 0.0680401 MeV
+Minimum Kinetic Energy of e-: 0.000103556 MeV
+Minimum Kinetic Energy of gamma: 0.0026519 MeV
+Minimum Kinetic Energy of neutron: 3.31966e-10 MeV
+Minimum Kinetic Energy of proton: 0.00870958 MeV
+Minimum Kinetic Energy of deuteron: 0.310062 MeV
+Minimum Kinetic Energy of He3: 10.312 MeV
+Minimum Kinetic Energy of alpha: 0.212357 MeV
+Minimum Kinetic Energy of Be8: 0.208783 MeV
+Minimum Kinetic Energy of C11: 3.26668 MeV
+Minimum Kinetic Energy of C12: 0.145364 MeV
+
+Maximum Kinetic Energy of e+: 7.38546 MeV
+Maximum Kinetic Energy of e-: 21.8235 MeV
+Maximum Kinetic Energy of gamma: 24.1014 MeV
+Maximum Kinetic Energy of neutron: 125.09 MeV
+Maximum Kinetic Energy of proton: 86.7803 MeV
+Maximum Kinetic Energy of deuteron: 21.6984 MeV
+Maximum Kinetic Energy of He3: 10.312 MeV
+Maximum Kinetic Energy of alpha: 17.1625 MeV
+Maximum Kinetic Energy of Be8: 3.1435 MeV
+Maximum Kinetic Energy of C11: 3.26668 MeV
+Maximum Kinetic Energy of C12: 6.36565 MeV

@@ -1,0 +1,17 @@
+#!/bin/bash
+#BSUB -J 3D
+#BSUB -P tessalab
+#BSUB -o /scratch/projects/tessalab/log_TOPAS/%J.out
+#BSUB -e /scratch/projects/tessalab/log_TOPAS/%J.err
+#BSUB -W 24:00
+#BSUB -q tessalab
+#BSUB -n 48
+#BSUB -R "rusage[mem=128]"
+#BSUB -B
+#BSUB -N
+#BSUB -u marta.missiaggia@miami.edu
+
+cd /scratch/projects/tessalab/2023-10-23_3D-TEPC/3D//D012_L00
+export TOPAS_G4_DATA_DIR=/nethome/mxm194331/topas/topas3_9/G4Data
+
+/nethome/gxc1962/topas/topas3_9/topas/bin/topas D012_L00_1.txt 

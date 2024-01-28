@@ -1,8 +1,9 @@
 # Trento Protontherapy Passive Line TOPAS Implementation and Microdosimetric Tissue Equivalent Proportional Counter
 
 ## References
-- **Microdosimetry** Missiaggia, Marta, et al. "Investigation of in-field and out-of-field radiation quality with microdosimetry and its impact on relative biological effectiveness in proton therapy." International Journal of Radiation Oncology* Biology* Physics 115.5 (2023): 1269-1282.
-- **Passive Beam Line** Tommasino, Francesco, et al. "A new facility for proton radiobiology at the Trento proton therapy centre: Design and implementation." Physica Medica 58 (2019): 99-106.
+- **Microdosimetry:** *Missiaggia, Marta, et al. "Investigation of in-field and out-of-field radiation quality with microdosimetry and its impact on relative biological effectiveness in proton therapy." International Journal of Radiation Oncology* Biology* Physics 115.5 (2023): 1269-1282.*
+- **TOPAS microdosimetric extension:** *Zhu, Hongyu, et al. "The microdosimetric extension in TOPAS: development and comparison with published data." Physics in Medicine & Biology 64.14 (2019): 145004*
+- **Passive Beam Line:** *Tommasino, Francesco, et al. "A new facility for proton radiobiology at the Trento proton therapy centre: Design and implementation." Physica Medica 58 (2019): 99-106.*
 
 ## Overview
 
@@ -21,22 +22,22 @@ This repository contains the TOPAS implementation of the Trento Protontherapy pa
 ## Usage
 
 1. Install TOPAS according to its documentation.
-2. Clone this repository: `git clone https://github.com/your-username/your-repository.git`
-3. Navigate to the project directory: `cd your-repository`
+2. Clone this repository: `git clone https://github.com/Giorgio5i6/TrentoProtonPassiveLine.git`
+3. Navigate to the project directory: `cd TrentoProtonPassiveLine`
 4. Compile the *"topas_extension"* folder according the topas documetation.
 5. Execute the simulation: `topas example/PassiveScattering_SphericalTEPC.txt`
 
 ## Example
-The example *example/PassiveScattering_SphericalTEPC.txt* simulates the passive scattering beamline which produces a SOBP. The geometry includes a water phantom where a TEPC is located. In the example the TEPC is located at 12 cm water depth from the entrance.
+The example *example/SOBP_D012_L00.txt* simulates the passive scattering beamline which produces a SOBP. The geometry includes a water phantom where a TEPC is located. In the example the TEPC is located at 12 cm water depth from the entrance.
 You can change the TEPC depth by modifyng the line: `d:Ge/AlShellOut/TransZ   = Ge/AlShellOut/TepcStartPos - <TEPC_DEPTH> mm`. If `<TEPC_DEPTH>` is equal to 0, it means that the TEPC is at the water phantom entrance.  
 
 ## Output
 
-- Microdosimetri extension output
+- Same as TOPAS Microdosimetric extension
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [GPL3.0](LICENSE).
 
 ## Authors
 
