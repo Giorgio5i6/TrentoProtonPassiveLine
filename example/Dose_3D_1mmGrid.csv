@@ -1,0 +1,6 @@
+# TOPAS Version: 3.9
+# Parameter File: PassiveScattering_SphericalTEPC.txt
+# Results for scorer: DoseToWater
+# Scored in component: Phantom
+# DoseToWater ( Gy ) : Sum   
+7.225628539941908e-09
