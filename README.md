@@ -17,7 +17,7 @@ This repository contains the TOPAS implementation of the Trento Protontherapy pa
 
 ## Requirements
 
-- [TOPAS](https://topas.ific.uv.es/) (Monte Carlo simulation software)
+- [TOPAS](https://www.topasmc.org/) (Monte Carlo simulation software)
 
 ## Usage
 
