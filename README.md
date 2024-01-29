@@ -25,7 +25,7 @@ This repository contains the TOPAS implementation of the Trento Protontherapy pa
 2. Clone this repository: `git clone https://github.com/Giorgio5i6/TrentoProtonPassiveLine.git`
 3. Navigate to the project directory: `cd TrentoProtonPassiveLine`
 4. Compile the *"topas_extension"* folder according the topas documetation.
-5. Execute the simulation: `topas example/PassiveScattering_SphericalTEPC.txt`
+5. Execute the simulation: `topas example/SOBP_D012_L00.txt`
 
 ## Example
 The example *example/SOBP_D012_L00.txt* simulates the passive scattering beamline which produces a SOBP. The geometry includes a water phantom where a TEPC is located. In the example the TEPC is located at 12 cm water depth from the entrance.
@@ -33,11 +33,14 @@ You can change the TEPC depth by modifyng the line: `d:Ge/AlShellOut/TransZ   = 
 
 ## Output
 
-- Same as TOPAS Microdosimetric extension
+- Same as TOPAS Microdosimetric extension:
+	- Scorer.phsp/.header
+	- ySpecfile*
+	- ydy.txt
 
 ## License
 
-This project is licensed under the [GPL3.0](LICENSE).
+This project is licensed under the [GPL-3.0](LICENSE).
 
 ## Authors
 
